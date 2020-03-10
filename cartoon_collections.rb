@@ -53,6 +53,8 @@ def find_the_cheese(words)
       return "gouda"
     elsif "#{cheese}" == "camembert"
       return "camembert"
+    else
+      return nil
     end
     }
     i+=1 
