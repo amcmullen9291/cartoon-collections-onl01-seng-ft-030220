@@ -19,8 +19,6 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(words)
-  i=0 
-  while i<words.length
   words.collect {|cheese| if "#{cheese}" == "cheddar"
       return "cheddar"
     elsif "#{cheese}" == "gouda"
@@ -30,4 +28,3 @@ def find_the_cheese(words)
     end
     }
   end
-end
