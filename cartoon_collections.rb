@@ -51,9 +51,10 @@ def find_the_cheese(words)
       return "cheddar"
     elsif "#{cheese}" == "gouda"
       return "gouda"
-    elsif"#{cheese}" == "camembert"
+    elsif "#{cheese}" == "camembert"
       return "camembert"
     end
     }
+    i+=1 
   end
 end
