@@ -57,6 +57,3 @@ def find_the_cheese(words)
     }
   end
 end
-    end
-    }
-  end
