@@ -29,5 +29,6 @@ def find_the_cheese(words)
       return "camembert"
     end
     }
+    i+=1
   end
 end
